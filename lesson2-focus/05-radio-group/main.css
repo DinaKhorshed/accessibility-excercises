@@ -22,7 +22,7 @@
   border-radius: 50%;
 }
 
-.radio[checked]::after {
+.radio[aria-checked="true"]::after {
   content: '';
   display: block;
   width: 8px;
